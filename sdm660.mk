@@ -344,7 +344,7 @@ else
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/power-libperfmgr/sdm660_powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 endif
- 
+
 # Protobuf
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat \
@@ -421,6 +421,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
+
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service.xiaomi_sdm660
 
 # Vibrator
 PRODUCT_PACKAGES += \
