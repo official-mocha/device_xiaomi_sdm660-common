@@ -114,7 +114,6 @@ debug.sf.earlyGl.sf.duration=16600000
 debug.sf.earlyGl.app.duration=16600000
 debug.sf.disable_backpressure=1
 debug.sf.hw=1
-debug.sf.latch_unsignaled=1
 ro.hardware.egl=adreno
 ro.hardware.vulkan=sdm660
 ro.opengles.version=196610
