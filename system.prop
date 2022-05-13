@@ -16,3 +16,8 @@ persist.sys.fflag.override.settings_network_and_internet_v2=true
 persist.sys.fflag.override.settings_provider_model=false
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
+
+# SkiaGL Threaded
+debug.renderengine.backend=skiaglthreaded
+debug.hwui.renderer=skiagl
+renderthread.skia.reduceopstasksplitting=true 
