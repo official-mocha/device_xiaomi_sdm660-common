@@ -9,3 +9,4 @@ persist.sys.sf.disable_blurs=1
 
 # IORap
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+iorapd.perfetto.enable=true
